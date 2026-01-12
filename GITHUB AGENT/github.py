@@ -1,7 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-from langchain_core.agents import Document
+from langchain_core.documents import Document
 
 load_dotenv()
 github_token = os.getenv("GITHUB_TOKEN")
